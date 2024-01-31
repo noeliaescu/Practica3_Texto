@@ -1,0 +1,51 @@
+body { 
+  background: #989998; 
+  color:#eee;
+}
+h1 {
+  text-align: center;
+  background-color: #666666;
+  border: 5px black solid;
+}
+.articleLeft{
+  float: left;
+  width: 47%;
+  background-color: #666665;
+  border-right: 2px solid red;  
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.articleRight{
+  float: right;
+  width: 47%;
+  border-left: 2px solid red;
+  background-color: #666666;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.derechaArriba{
+   visibility:hidden;
+   float: left;
+   position: relative;
+}
+.izquierdaArriba{
+  
+  float:right;
+  position: relative;
+}
+#derechaArriba{
+  float: left;  
+  visibility:hidden;
+  #display:inline;
+}
+#izquierdaArriba{
+  float: right;  
+  visibility: hidden;
+  #display: block;
+
+}
+.texto {
+  overflow:visible;
+}
