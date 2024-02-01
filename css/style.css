@@ -37,12 +37,10 @@ h1 {
 }
 #derechaArriba{
   float: left;  
-  visibility:hidden;
   #display:inline;
 }
 #izquierdaArriba{
   float: right;  
-  visibility: hidden;
   #display: block;
 
 }
